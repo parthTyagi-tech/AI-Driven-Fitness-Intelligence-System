@@ -1,4 +1,4 @@
-🧠 AI-Driven Fitness Intelligence System
+#🧠 AI-Driven Fitness Intelligence System
 
 An AI-powered fitness intelligence platform that predicts body fat percentage using physiological and lifestyle data through machine learning models.
 
@@ -18,7 +18,7 @@ The system analyzes body measurements and activity patterns to generate data-dri
 
 Use the deployed application to predict body fat percentage in real-time by entering your physiological details.
 
-📊 Project Overview
+#📊 Project Overview
 
 The AI-Driven Fitness Intelligence System leverages machine learning to estimate body fat percentage using anthropometric measurements and lifestyle indicators.
 
@@ -36,7 +36,7 @@ Interactive AI deployment
 
 This system demonstrates how machine learning can transform raw physiological data into actionable fitness insights.
 
-🧠 Machine Learning Models
+#🧠 Machine Learning Models
 
 Two regression models were trained and compared to determine the most effective predictor.
 
@@ -46,7 +46,7 @@ Models Implemented
 
 2️⃣ XGBoost Regressor
 
-📈 Model Performance Comparison
+##📈 Model Performance Comparison
 Model	R² Score
 Multiple Linear Regression	0.9890
 XGBoost Regressor	0.9954
@@ -56,7 +56,7 @@ Although Multiple Linear Regression performed well, XGBoost achieved a higher R�
 
 Therefore, XGBoost was selected as the final production model for deployment.
 
-📂 Dataset
+#📂 Dataset
 
 The dataset contains physiological and lifestyle attributes such as:
 
@@ -80,11 +80,11 @@ Daily calorie intake
 
 These attributes are widely used in body composition estimation models and health analytics systems.
 
-⚙️ Machine Learning Pipeline
+##⚙️ Machine Learning Pipeline
 
-The project follows a structured ML workflow:
+##The project follows a structured ML workflow:
 
-1️⃣ Data Preprocessing
+###1️⃣ Data Preprocessing
 
 Handling missing values
 
@@ -94,29 +94,29 @@ Feature scaling
 
 Encoding categorical variables
 
-2️⃣ Feature Engineering
+###2️⃣ Feature Engineering
 
 Selection of physiologically relevant variables
 
 Correlation analysis
 
-3️⃣ Model Training
+###3️⃣ Model Training
 
 Multiple Linear Regression
 
 XGBoost Regressor
 
-4️⃣ Model Evaluation
+###4️⃣ Model Evaluation
 
 R² Score comparison
 
 Model performance analysis
 
-5️⃣ Deployment
+###5️⃣ Deployment
 
 The final trained model is deployed using Streamlit, enabling real-time body fat prediction via an interactive web interface.
 
-🖥️ Web Application
+###🖥️ Web Application
 
 The application allows users to input fitness data and receive instant AI predictions.
 
@@ -144,7 +144,7 @@ Output
 
 ✔ Estimated Body Fat Percentage
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 Programming
 
 Python
@@ -173,7 +173,7 @@ GitHub
 
 Streamlit Cloud
 
-📁 Project Structure
+##📁 Project Structure
 AI-Driven-Fitness-Intelligence-System
 │
 ├── app.py
@@ -183,9 +183,9 @@ AI-Driven-Fitness-Intelligence-System
 ├── notebooks
 │
 └── README.md
-▶️ Installation & Setup
+##▶️ Installation & Setup
 
-Clone the repository
+##Clone the repository
 
 git clone https://github.com/parthTyagi-tech/AI-Driven-Fitness-Intelligence-System.git
 
